@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flushbackgroundtwo"
+    tools:context="com.example.aiko.flushcalculator.FirstActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="270px"
+        android:layout_height="120px"
+        android:layout_above="@+id/infobt"
+        android:layout_alignLeft="@+id/infobt"
+        android:layout_alignStart="@+id/infobt"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/startbt"
+        android:onClick="start" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="512dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/info"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/info" />
+
+    <ImageButton
+        android:id="@+id/infobt"
+        android:layout_width="270px"
+        android:layout_height="120px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/infobt"
+        android:onClick="onClick" />
+
+</RelativeLayout>
+

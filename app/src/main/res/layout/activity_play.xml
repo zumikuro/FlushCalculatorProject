@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.aiko.flushcalculator.PlayActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="270px"
+        android:layout_height="120px"
+        android:layout_alignBottom="@+id/scoretext"
+        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_toLeftOf="@+id/backbt"
+        android:layout_toStartOf="@+id/backbt"
+        android:src="@drawable/anser" />
+
+    <TextView
+        android:id="@+id/scoretext"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/backbt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/color_letter"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/backbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="戻る"
+        android:textSize="30sp" />
+</RelativeLayout>
